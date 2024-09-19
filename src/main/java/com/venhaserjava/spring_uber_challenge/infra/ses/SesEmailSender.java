@@ -3,6 +3,7 @@ package com.venhaserjava.spring_uber_challenge.infra.ses;
 import com.amazonaws.services.simpleemail.AmazonSimpleEmailService;
 import com.amazonaws.services.simpleemail.model.*;
 import com.venhaserjava.spring_uber_challenge.adapters.EmailSenderGateway;
+import com.venhaserjava.spring_uber_challenge.core.exceptions.EmailServiceException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
