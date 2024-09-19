@@ -1,6 +1,7 @@
 package com.venhaserjava.spring_uber_challenge.controllers;
 
 import com.venhaserjava.spring_uber_challenge.application.EmailSenderService;
+import com.venhaserjava.spring_uber_challenge.core.EmailRequest;
 import com.venhaserjava.spring_uber_challenge.core.exceptions.EmailServiceException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
